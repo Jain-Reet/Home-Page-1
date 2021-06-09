@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: coral;
+}
+
+nav ul {
+  background-color: antiquewhite;
+  display: flex;
+  align-items: flex-start;
+  height: 55px;
+}
+
+nav ul li {
+  list-style: none;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  /* background-color: black; */
+  color: antiquewhite;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  padding: 4px;
+}
+
+#name {
+  font-size: 2vw;
+  display: flex;
+  /* justify-content: center; */
+  align-self: center;
+  margin-right: 3vw;
+}
+
+#img-margin {
+  margin-top: 8px;
+  /* margin-right: 0; */
+  margin-right: 1vw ;
+  margin-left: 1vw;
+  width: 2.7vw;
+}
+
+.threeMargin {
+  /* text-decoration: none; */
+  margin-right: 1.5vw;
+  display: flex;
+  align-self: center;
+  font-family: 'Staatliches';
+  font-size: 1.6vw;
+  color: #9400FF;
+}
+
+#leftnav {
+  margin-left: 26vw;
+}
+
+.rightnav {
+  background-color: antiquewhite;
+  width: 2vw;
+  /* display: flex;
+  align-self: center; */
+  margin: 1vw 0.6vw auto 0.6vw;
+  cursor: pointer;
+} 
+
+#firstSvg {
+  margin-left: 30.6vw;
+}
+
+#twitMargin {
+  margin-left: 1vw;
+}
+
+#codeMan {
+  width: 604px;
+  margin-left: 660px;
+  margin-top: -500px;
+}
